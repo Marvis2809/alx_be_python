@@ -1,6 +1,9 @@
 principal = 1000
+P= principal
 rate = 0.05
+R = rate
 time = 3
-# interest = principal * rate * time
-interest = principal * rate * time
+T = time
+I = P * R * T
+interest = I
 print("The simple interest is:", interest)
